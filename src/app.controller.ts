@@ -15,8 +15,13 @@ export class AppController {
     return 'test';
   }
 
-  @Get('/test/test23')
+  @Get('/test/test123')
   async actionTest() {
     return 'github test';
   }
+
+  @Get('/test/test224')
+  async actionTest2() {
+    return 'github test2';
+  } 
 }
